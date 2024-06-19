@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from contextlib import asynccontextmanager
 
 from core.config import settings
-from db import db_helper
+from core.models import db_helper
 from api.api import router as api_router
 
 
